@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Secrets: never commit real keys. .env.example has placeholders instead.
+.env
+.env.*
+!.env.example
+
+# Build output and logs
+dist/
+*.log
+
+# Editor / OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
